@@ -35,7 +35,126 @@ const App = {
       }
     }
     window.allQuestions = this.questions;
+    this.renderDailyChallenge();
     this.render();
+  },
+
+  renderDailyChallenge() {
+    const container = document.getElementById('dailyQuestionCardBody');
+    const dateText = document.getElementById('dailyChallengeDateText');
+    const timerElem = document.getElementById('dailyNextResetTimer');
+    if (!container || this.questions.length === 0) return;
+
+    // Deterministic question index based on Date
+    const today = new Date();
+    const dateStr = today.toDateString();
+    if (dateText) {
+      dateText.innerText = `📅 ${today.toLocaleDateString('hi-IN', { day: 'numeric', month: 'long', year: 'numeric' })}`;
+    }
+
+    // Countdown to next midnight
+    const tomorrow = new Date(today);
+    tomorrow.setHours(24, 0, 0, 0);
+    const diffMs = tomorrow - today;
+    const hoursLeft = Math.floor(diffMs / (1000 * 60 * 60));
+    const minsLeft = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+    if (timerElem) {
+      timerElem.innerText = `अगला प्रश्न: ${hoursLeft}h ${minsLeft}m में`;
+    }
+
+    const dayHash = (today.getFullYear() * 365 + today.getMonth() * 31 + today.getDate());
+    const dailyIndex = dayHash % this.questions.length;
+    const q = this.questions[dailyIndex];
+
+    const isAnsweredKey = `uk_daily_answered_${dateStr}`;
+    const savedDailyAnswer = localStorage.getItem(isAnsweredKey);
+
+    container.innerHTML = `
+      <div class="space-y-4">
+        <!-- Question Badge & Subject -->
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-black px-2.5 py-0.5 rounded-lg bg-amber-500 text-slate-950">
+              ${q.exam} ${q.year || ''}
+            </span>
+            <span class="text-xs font-semibold text-slate-700 dark:text-slate-300">
+              📌 ${q.subject} • ${q.topic}
+            </span>
+          </div>
+          <span class="text-[11px] text-amber-600 dark:text-amber-400 font-mono font-bold">1 Daily Practice</span>
+        </div>
+
+        <!-- Question Text -->
+        <div class="space-y-1">
+          <h3 class="text-base sm:text-lg font-extrabold text-slate-900 dark:text-white leading-snug">
+            ${q.question}
+          </h3>
+          ${q.question_hi ? `<p class="text-sm text-slate-600 dark:text-slate-300 font-hindi font-medium leading-relaxed">${q.question_hi}</p>` : ''}
+        </div>
+
+        <!-- Options Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1" id="dailyOptionsGrid">
+          ${q.options.map((opt, optIdx) => {
+            return `
+              <button 
+                onclick="App.selectDailyOption(${optIdx}, ${q.correct_index}, '${dateStr}', '${q.id}')"
+                id="daily-opt-${optIdx}"
+                class="daily-opt-btn text-left p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/80 hover:bg-amber-50 dark:hover:bg-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-between text-slate-800 dark:text-slate-200 transition">
+                <span><b class="mr-2 font-mono text-amber-500">${String.fromCharCode(65 + optIdx)}.</b>${opt}</span>
+                <i class="fa-regular fa-circle text-xs text-slate-300 dark:text-slate-600" id="daily-icon-${optIdx}"></i>
+              </button>
+            `;
+          }).join('')}
+        </div>
+
+        <!-- Explanation Revealed -->
+        <div id="dailyExpBox" class="${savedDailyAnswer !== null ? '' : 'hidden'} mt-3 p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-900 text-xs sm:text-sm space-y-2">
+          <div class="font-extrabold text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5">
+            <i class="fa-solid fa-circle-check text-emerald-600"></i> सही उत्तर: Option (${String.fromCharCode(65 + q.correct_index)}) - ${q.options[q.correct_index]}
+          </div>
+          <p class="text-slate-700 dark:text-slate-300 leading-relaxed">${q.explanation}</p>
+          ${q.explanation_hi ? `<p class="text-slate-600 dark:text-slate-400 font-hindi border-t border-emerald-200 dark:border-emerald-900 pt-1.5">${q.explanation_hi}</p>` : ''}
+        </div>
+      </div>
+    `;
+
+    if (savedDailyAnswer !== null) {
+      this.revealDailyAnswerUI(parseInt(savedDailyAnswer), q.correct_index);
+    }
+  },
+
+  selectDailyOption(selectedIdx, correctIdx, dateStr, qId) {
+    localStorage.setItem(`uk_daily_answered_${dateStr}`, selectedIdx);
+    this.revealDailyAnswerUI(selectedIdx, correctIdx);
+  },
+
+  revealDailyAnswerUI(selectedIdx, correctIdx) {
+    for (let i = 0; i < 4; i++) {
+      const btn = document.getElementById(`daily-opt-${i}`);
+      const icon = document.getElementById(`daily-icon-${i}`);
+      if (!btn) continue;
+      btn.disabled = true;
+      btn.className = 'text-left p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs sm:text-sm font-semibold flex items-center justify-between text-slate-600 dark:text-slate-400 opacity-80';
+      if (icon) icon.className = 'fa-regular fa-circle text-xs text-slate-300 dark:text-slate-600';
+    }
+
+    const selectedBtn = document.getElementById(`daily-opt-${selectedIdx}`);
+    const selectedIcon = document.getElementById(`daily-icon-${selectedIdx}`);
+    const correctBtn = document.getElementById(`daily-opt-${correctIdx}`);
+    const correctIcon = document.getElementById(`daily-icon-${correctIdx}`);
+
+    if (correctBtn) {
+      correctBtn.className = 'text-left p-3.5 rounded-xl border-2 border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-200 text-xs sm:text-sm font-bold flex items-center justify-between';
+      if (correctIcon) correctIcon.className = 'fa-solid fa-circle-check text-emerald-600 text-sm';
+    }
+
+    if (selectedIdx !== correctIdx && selectedBtn) {
+      selectedBtn.className = 'text-left p-3.5 rounded-xl border-2 border-red-400 bg-red-50 dark:bg-red-950/60 text-red-800 dark:text-red-200 text-xs sm:text-sm font-bold flex items-center justify-between';
+      if (selectedIcon) selectedIcon.className = 'fa-solid fa-circle-xmark text-red-500 text-sm';
+    }
+
+    const expBox = document.getElementById('dailyExpBox');
+    if (expBox) expBox.classList.remove('hidden');
   },
 
   setupEventListeners() {
