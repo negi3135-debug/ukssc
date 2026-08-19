@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#grad)"/>
+  
+  <!-- Sun -->
+  <circle cx="360" cy="160" r="50" fill="#fef08a" opacity="0.9"/>
+  
+  <!-- Mountain 1 (Back) -->
+  <polygon points="120,380 260,180 400,380" fill="#065f46" opacity="0.7"/>
+  
+  <!-- Mountain 2 (Front Snow Peak) -->
+  <polygon points="200,400 340,140 480,400" fill="#022c22"/>
+  <polygon points="340,140 375,195 350,210 330,195 305,210" fill="#ffffff"/>
+  
+  <!-- Front Mountain 3 -->
+  <polygon points="40,420 180,200 320,420" fill="#064e3b"/>
+  <polygon points="180,200 215,255 190,270 170,255 145,270" fill="#ffffff"/>
+
+  <!-- Badge / Text UK -->
+  <rect x="146" y="370" width="220" height="60" rx="30" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="256" y="412" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#065f46" text-anchor="middle">UK EXAM</text>
+</svg>

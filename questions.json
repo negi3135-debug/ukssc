@@ -1,0 +1,382 @@
+[
+  {
+    "id": "uk-his-001",
+    "exam": "UKPSC",
+    "exam_name": "Combined Upper Subordinate Prelims",
+    "year": 2021,
+    "subject": "Uttarakhand History",
+    "topic": "Chand Dynasty",
+    "question": "Which Chand ruler transferred the capital of Chand dynasty from Champawat to Almora?",
+    "question_hi": "किस चंद शासक ने चंद वंश की राजधानी चंपावत से अल्मोड़ा स्थानांतरित की थी?",
+    "options": [
+      "Som Chand (सोम चंद)",
+      "Balo Kalyan Chand (बालो कल्याण चंद)",
+      "Baz Bahadur Chand (बाज़ बहादुर चंद)",
+      "Rudra Chand (रुद्र चंद)"
+    ],
+    "correct_index": 1,
+    "explanation": "Balo Kalyan Chand (1560-1568 AD) successfully shifted the capital of the Chand kingdom from Champawat to Almora (Alam Nagar), though the process was initially initiated by King Bhishma Chand.",
+    "explanation_hi": "बालो कल्याण चंद (1560-1568 ई.) ने चंद साम्राज्य की राजधानी को चंपावत से अल्मोड़ा स्थानांतरित किया था, हालांकि इसकी नींव भीष्म चंद ने रखी थी।"
+  },
+  {
+    "id": "uk-his-002",
+    "exam": "UKPSC",
+    "exam_name": "RO/ARO Prelims",
+    "year": 2019,
+    "subject": "Uttarakhand History",
+    "topic": "Katyuri Dynasty",
+    "question": "Who is considered the founder of the Katyuri Dynasty in Uttarakhand?",
+    "question_hi": "उत्तराखंड में कत्यूरी राजवंश का संस्थापक किसे माना जाता है?",
+    "options": [
+      "Vasantan Dev (वसंतन देव)",
+      "Lalitshura Dev (ललितशूर देव)",
+      "Tribhuvana Raja (त्रिभुवन राज)",
+      "Nimbar Dev (निम्बर देव)"
+    ],
+    "correct_index": 0,
+    "explanation": "According to the Bageshwar stone inscriptions and historical records, Vasantan Dev (Basant Dev) is regarded as the founder of the Katyuri dynasty with its initial capital at Joshimath (Kartikeyapur).",
+    "explanation_hi": "बागेश्वर शिलालेखों के अनुसार वसंतन देव (बसंत देव) को कत्यूरी राजवंश का संस्थापक माना जाता है। इनकी आरंभिक राजधानी जोशीमठ (कार्तिकेयपुर) थी।"
+  },
+  {
+    "id": "uk-his-003",
+    "exam": "UKPSC",
+    "exam_name": "Lower PCS Prelims",
+    "year": 2021,
+    "subject": "Uttarakhand History",
+    "topic": "Parmar / Panwar Dynasty",
+    "question": "Which Parmar ruler unified the 52 Garhs (fortresses) of Garhwal and shifted the capital to Srinagar in 1512 AD?",
+    "question_hi": "किस पंवार शासक ने गढ़वाल के 52 गढ़ों को एकीकृत किया और 1512 ई. में राजधानी श्रीनगर स्थानांतरित की?",
+    "options": [
+      "Kanakpal (कनकपाल)",
+      "Ajaypal (अजयपाल)",
+      "Man Shah (मान शाह)",
+      "Fateh Shah (फतेह शाह)"
+    ],
+    "correct_index": 1,
+    "explanation": "King Ajaypal (the 37th king of Parmar dynasty) unified all 52 Garhs of Garhwal and is often termed the 'Ashoka of Garhwal' or 'Napoleon of Garhwal'. He moved the capital from Chandpur Garhi to Devalgarh (1512) and then to Srinagar (1517).",
+    "explanation_hi": "राजा अजयपाल (पंवार वंश के 37वें राजा) ने 52 गढ़ों को जीतकर अखंड गढ़वाल राज्य की स्थापना की। इन्हें 'गढ़वाल का अशोक' भी कहा जाता है। इन्होंने राजधानी श्रीनगर बनाई।"
+  },
+  {
+    "id": "uk-his-004",
+    "exam": "UKPSC",
+    "exam_name": "Assistant Review Officer",
+    "year": 2019,
+    "subject": "Uttarakhand History",
+    "topic": "Gorkha Rule",
+    "question": "In which year did the Gorkhas defeat Pradyumna Shah in the Battle of Khurbura (Dehradun) and establish Gorkha rule over Garhwal?",
+    "question_hi": "गोरखाओं ने खुरबुड़ा (देहरादून) के युद्ध में प्रद्युम्न शाह को किस वर्ष पराजित कर गढ़वाल पर अपना शासन स्थापित किया?",
+    "options": [
+      "1790 AD",
+      "1804 AD",
+      "1815 AD",
+      "1791 AD"
+    ],
+    "correct_index": 1,
+    "explanation": "In January 1804, King Pradyumna Shah was martyred in the historic Battle of Khurbura against Gorkha commander Amar Singh Thapa, leading to complete Gorkha control over Garhwal until the Treaty of Sugauli (1815).",
+    "explanation_hi": "जनवरी 1804 में खुरबुड़ा के मैदान में अमर सिंह थापा के नेतृत्व वाली गोरखा सेना से लड़ते हुए राजा प्रद्युम्न शाह वीरगति को प्राप्त हुए, जिसके बाद पूरे गढ़वाल पर गोरखा शासन कायम हो गया।"
+  },
+  {
+    "id": "uk-his-005",
+    "exam": "UKSSC",
+    "exam_name": "Graduate Level (VDO/VPDO)",
+    "year": 2021,
+    "subject": "Uttarakhand History",
+    "topic": "Tehri Garhwal State",
+    "question": "On which date did the princely state of Tehri Garhwal officially merge into the Indian Union (Uttar Pradesh state)?",
+    "question_hi": "टिहरी गढ़वाल रियासत का भारतीय संघ (उत्तर प्रदेश) में आधिकारिक विलय किस तिथि को हुआ था?",
+    "options": [
+      "15 August 1947",
+      "1 August 1949",
+      "26 January 1950",
+      "9 November 2000"
+    ],
+    "correct_index": 1,
+    "explanation": "On 1st August 1949, King Manabendra Shah signed the merger instrument, and Tehri Garhwal became the 50th district of Uttar Pradesh state.",
+    "explanation_hi": "1 अगस्त 1949 को महाराजा मानवेन्द्र शाह के हस्ताक्षर के साथ टिहरी रियासत का भारत संघ में विलय हुआ और यह संयुक्त प्रांत (उत्तर प्रदेश) का 50वां जिला बना।"
+  },
+  {
+    "id": "uk-his-006",
+    "exam": "UKSSC",
+    "exam_name": "Junior Assistant",
+    "year": 2021,
+    "subject": "Uttarakhand History",
+    "topic": "Freedom Movement",
+    "question": "Who was the founder of the 'Garhwal Hitkarini Sabha' established in the year 1901?",
+    "question_hi": "वर्ष 1901 में स्थापित 'गढ़वाल हितकारिणी सभा' के संस्थापक कौन थे?",
+    "options": [
+      "Tara Dutt Gairola (तारादत्त गैरोला)",
+      "Badri Datt Pande (बद्री दत्त पांडे)",
+      "Govind Ballabh Pant (गोविंद बल्लभ पंत)",
+      "Mukandi Lal (मुकुंदी लाल)"
+    ],
+    "correct_index": 0,
+    "explanation": "Tara Dutt Gairola along with other intellectuals established 'Garhwal Hitkarini Sabha' in 1901 to promote social, cultural, and political awakening in the Garhwal region.",
+    "explanation_hi": "तारादत्त गैरोला जी ने गढ़वाल क्षेत्र में सामाजिक और शैक्षणिक चेतना जागृत करने के उद्देश्य से 1901 में 'गढ़वाल हितकारिणी सभा' की स्थापना की थी।"
+  },
+  {
+    "id": "uk-his-007",
+    "exam": "UKPSC",
+    "exam_name": "UKPSC Prelims",
+    "year": 2016,
+    "subject": "Uttarakhand History",
+    "topic": "Peshawar Incident",
+    "question": "Who was the hero of the famous 'Peshawar Incident' (1930) who refused to fire bullets on unarmed Khudai Khidmatgar Pathan protestors?",
+    "question_hi": "प्रसिद्ध 'पेशावर कांड' (1930) के नायक कौन थे जिन्होंने निहत्थे खुदाई खिदमतगार पठानों पर गोली चलाने से इंकार कर दिया था?",
+    "options": [
+      "Chander Singh Garhwali (वीर चन्द्र सिंह गढ़वाली)",
+      "Gabar Singh Negi (गबर सिंह नेगी)",
+      "Darbari Singh Negi (दरबान सिंह नेगी)",
+      "Kalu Singh Mehra (कालू मेहरा)"
+    ],
+    "correct_index": 0,
+    "explanation": "On 23 April 1930, Havildar Major Veer Chander Singh Garhwali of 2/18 Royal Garhwal Rifles ordered his soldiers not to fire upon peaceful freedom fighters in Peshawar.",
+    "explanation_hi": "23 अप्रैल 1930 को 2/18 रॉयल गढ़वाल राइफल्स के हवलदार वीर चन्द्र सिंह गढ़वाली ने पेशावर में निहत्थे देशभक्तों पर गोली चलाने से मना कर दिया था।"
+  },
+  {
+    "id": "uk-geo-001",
+    "exam": "UKSSC",
+    "exam_name": "Graduate Level (VDO/VPDO)",
+    "year": 2021,
+    "subject": "Uttarakhand Geography",
+    "topic": "Rivers & Drainage",
+    "question": "At which of the following places do the Alaknanda and Bhagirathi rivers confluence to form the river Ganga?",
+    "question_hi": "निम्नलिखित में से किस स्थान पर अलकनंदा और भागीरथी नदी मिलकर गंगा नदी बनाती हैं?",
+    "options": [
+      "Rudraprayag (रुद्रप्रयाग)",
+      "Karnaprayag (कर्णप्रयाग)",
+      "Devprayag (देवप्रयाग)",
+      "Vishnuprayag (विष्णुप्रयाग)"
+    ],
+    "correct_index": 2,
+    "explanation": "At Devprayag (one of the Panch Prayags in Tehri Garhwal district), Bhagirathi and Alaknanda meet and the unified stream is officially named Ganga.",
+    "explanation_hi": "देवप्रयाग में भागीरथी और अलकनंदा नदियों का संगम होता है और यहीं से इस संयुक्त धारा को 'गंगा' के नाम से जाना जाता है।"
+  },
+  {
+    "id": "uk-geo-002",
+    "exam": "UKPSC",
+    "exam_name": "Executive Officer (EO)",
+    "year": 2023,
+    "subject": "Uttarakhand Geography",
+    "topic": "Lakes & Glaciers",
+    "question": "Which lake in Uttarakhand is famously known as the 'Mystery Lake' or 'Skeleton Lake'?",
+    "question_hi": "उत्तराखंड की किस झील को 'रहस्यमयी झील' या 'कंकाल झील' (Skeleton Lake) के नाम से जाना जाता है?",
+    "options": [
+      "Vasuki Tal (वासुकी ताल)",
+      "Roopkund (रूपकुंड)",
+      "Hemkund (हेमकुंड)",
+      "Dodital (डोडीताल)"
+    ],
+    "correct_index": 1,
+    "explanation": "Roopkund is a high-altitude glacial lake situated at about 5,029 meters in Chamoli district. It is famous for hundreds of ancient human skeletons visible at its bottom when snow melts.",
+    "explanation_hi": "चमोली जिले में स्थित 'रूपकुंड' झील को 'कंकाल झील' या 'रहस्यमयी झील' कहा जाता है, जहाँ 9वीं सदी के सैकड़ों मानव कंकाल मिले हैं।"
+  },
+  {
+    "id": "uk-geo-003",
+    "exam": "UKPSC",
+    "exam_name": "Combined Civil Services",
+    "year": 2022,
+    "subject": "Uttarakhand Geography",
+    "topic": "Mountain Peaks",
+    "question": "What is the highest mountain peak situated entirely within Uttarakhand?",
+    "question_hi": "उत्तराखंड राज्य की सर्वोच्च पर्वत चोटी कौन सी है?",
+    "options": [
+      "Kamet (कामेत - 7,756 m)",
+      "Nanda Devi (नंदा देवी - 7,816 m)",
+      "Trishul (त्रिशूल - 7,120 m)",
+      "Chaukhamba (चौखम्बा - 7,138 m)"
+    ],
+    "correct_index": 1,
+    "explanation": "Nanda Devi peak (7,816 meters / 25,643 ft) located in Chamoli district is the highest peak in Uttarakhand and the second highest in India after Kangchenjunga.",
+    "explanation_hi": "नंदा देवी (7,816 मीटर) चमोली जिले में स्थित उत्तराखंड की सबसे ऊंची चोटी है। कामेत (7,756 मी.) राज्य की दूसरी सबसे ऊंची चोटी है।"
+  },
+  {
+    "id": "uk-geo-004",
+    "exam": "UKSSC",
+    "exam_name": "Patwari / Lekhpal",
+    "year": 2023,
+    "subject": "Uttarakhand Geography",
+    "topic": "Mountain Passes (दर्रे)",
+    "question": "Which mountain pass connects Pithoragarh district of Uttarakhand with Tibet (China) on the Kailash Mansarovar pilgrimage route?",
+    "question_hi": "कैलाश मानसरोवर यात्रा मार्ग पर उत्तराखंड के पिथौरागढ़ को तिब्बत (चीन) से कौन सा दर्रा जोड़ता है?",
+    "options": [
+      "Lipulekh Pass (लिपुलेख दर्रा)",
+      "Mana Pass (माना दर्रा)",
+      "Niti Pass (नीति दर्रा)",
+      "Traill's Pass (ट्रेल पास)"
+    ],
+    "correct_index": 0,
+    "explanation": "Lipulekh Pass (5,334 m) located in the Vyas Valley of Pithoragarh connects India with the Tibet Autonomous Region and serves as the primary route for the Kailash Mansarovar Yatra.",
+    "explanation_hi": "लिपुलेख दर्रा पिथौरागढ़ जिले में स्थित है और यह भारत और तिब्बत (चीन) को जोड़ता है तथा ऐतिहासिक कैलाश मानसरोवर यात्रा का मुख्य मार्ग है।"
+  },
+  {
+    "id": "uk-geo-005",
+    "exam": "UKPSC",
+    "exam_name": "Forest Range Officer (FRO)",
+    "year": 2021,
+    "subject": "Uttarakhand Geography",
+    "topic": "Glaciers",
+    "question": "Which is the largest glacier in the Kumaon division of Uttarakhand, from which the Gori Ganga river originates?",
+    "question_hi": "कुमाऊं मंडल का सबसे बड़ा ग्लेशियर (हिमनद) कौन सा है, जिससे गोरी गंगा नदी निकलती है?",
+    "options": [
+      "Pindari Glacier (पिंडारी)",
+      "Milam Glacier (मिलम ग्लेशियर)",
+      "Kafni Glacier (कफनी)",
+      "Sundardhunga Glacier (सुंदरढूंगा)"
+    ],
+    "correct_index": 1,
+    "explanation": "Milam Glacier (approx 16 km long) in Pithoragarh district is the largest glacier of the Kumaon region and the source of the Gori Ganga river.",
+    "explanation_hi": "पिथौरागढ़ में स्थित 'मिलम ग्लेशियर' (लगभग 16 किमी) कुमाऊं का सबसे बड़ा हिमनद है, जिससे गोरी गंगा का उद्गम होता है।"
+  },
+  {
+    "id": "uk-env-001",
+    "exam": "UKSSC",
+    "exam_name": "Forest Guard Examination",
+    "year": 2020,
+    "subject": "Environment & Ecology",
+    "topic": "National Parks & Wildlife",
+    "question": "Which is the oldest National Park in India, located in Nainital and Pauri Garhwal districts of Uttarakhand?",
+    "question_hi": "भारत का सबसे पुराना राष्ट्रीय उद्यान कौन सा है, जो उत्तराखंड के नैनीताल और पौड़ी गढ़वाल जिलों में स्थित है?",
+    "options": [
+      "Rajaji National Park (राजाजी राष्ट्रीय उद्यान)",
+      "Jim Corbett National Park (जिम कॉर्बेट राष्ट्रीय उद्यान)",
+      "Nanda Devi National Park (नंदा देवी राष्ट्रीय उद्यान)",
+      "Valley of Flowers National Park (फूलों की घाटी)"
+    ],
+    "correct_index": 1,
+    "explanation": "Established in 1936 as Hailey National Park (later renamed Ramganga and then Jim Corbett National Park in 1957), it is India's first national park and the birthplace of Project Tiger (1973).",
+    "explanation_hi": "1936 में हेली नेशनल पार्क के रूप में स्थापित (बाद में 1957 में जिम कॉर्बेट नाम दिया गया), यह भारत का पहला राष्ट्रीय उद्यान है।"
+  },
+  {
+    "id": "uk-env-002",
+    "exam": "UKPSC",
+    "exam_name": "Lower PCS",
+    "year": 2021,
+    "subject": "Environment & Ecology",
+    "topic": "Biosphere & UNESCO Heritage",
+    "question": "In which year was the 'Valley of Flowers' (फूलों की घाटी) declared a UNESCO World Heritage Site?",
+    "question_hi": "चमोली स्थित 'फूलों की घाटी' को किस वर्ष यूनेस्को (UNESCO) विश्व धरोहर स्थल घोषित किया गया था?",
+    "options": [
+      "1982",
+      "1988",
+      "2005",
+      "2010"
+    ],
+    "correct_index": 2,
+    "explanation": "Valley of Flowers was declared a National Park in 1982 and inscribed as a UNESCO World Heritage Site in 2005 (joining Nanda Devi National Park which was inscribed in 1988).",
+    "explanation_hi": "फूलों की घाटी की खोज 1931 में फ्रैंक स्माइथ ने की थी। इसे 1982 में राष्ट्रीय उद्यान और 2005 में यूनेस्को की विश्व धरोहर सूची में शामिल किया गया।"
+  },
+  {
+    "id": "uk-pol-001",
+    "exam": "UKPSC",
+    "exam_name": "UKPSC Prelims",
+    "year": 2022,
+    "subject": "Uttarakhand Polity",
+    "topic": "State Formation & Symbols",
+    "question": "What is the scientific name of Uttarakhand's State Bird, Monal?",
+    "question_hi": "उत्तराखंड के राज्य पक्षी 'मोनाल' का वैज्ञानिक नाम क्या है?",
+    "options": [
+      "Moschus chrysogaster",
+      "Lophophorus impejanus",
+      "Saussurea obvallata",
+      "Rhododendron arboreum"
+    ],
+    "correct_index": 1,
+    "explanation": "The scientific name of Monal (Himalayan Monal) is Lophophorus impejanus. State Animal: Moschus chrysogaster (Kasturi Mrig), State Flower: Saussurea obvallata (Brahma Kamal), State Tree: Rhododendron arboreum (Buransh).",
+    "explanation_hi": "मोनाल का वैज्ञानिक नाम 'लोफोफोरस इम्पेजेनस' (Lophophorus impejanus) है। ब्रह्मकमल का 'सॉसुरिया ओबवैलटा' तथा कस्तूरी मृग का 'मॉस्कस क्राइसोगास्टर' है।"
+  },
+  {
+    "id": "uk-pol-002",
+    "exam": "UKSSC",
+    "exam_name": "Secretariat Security Guard",
+    "year": 2021,
+    "subject": "Uttarakhand Polity",
+    "topic": "State Assembly & Seats",
+    "question": "How many seats are reserved for Scheduled Castes (SC) and Scheduled Tribes (ST) respectively in the 70-member Uttarakhand Legislative Assembly?",
+    "question_hi": "उत्तराखंड की 70 सदस्यीय विधानसभा में अनुसूचित जाति (SC) और अनुसूचित जनजाति (ST) के लिए क्रमशः कितनी सीटें आरक्षित हैं?",
+    "options": [
+      "13 SC and 2 ST (13 अ.जा. और 2 अ.ज.जा.)",
+      "15 SC and 0 ST (15 अ.जा. और 0 अ.ज.जा.)",
+      "12 SC and 3 ST (12 अ.जा. और 3 अ.ज.जा.)",
+      "10 SC and 4 ST (10 अ.जा. और 4 अ.ज.जा.)"
+    ],
+    "correct_index": 0,
+    "explanation": "Out of 70 elective seats in the Uttarakhand Vidhan Sabha, 13 seats are reserved for SC candidates and 2 seats (Chakrata and Nanakmatta) are reserved for ST candidates.",
+    "explanation_hi": "उत्तराखंड विधानसभा की कुल 70 सीटों में से 13 सीटें SC के लिए और 2 सीटें (चकराता एवं नानकमत्ता) ST वर्ग के लिए आरक्षित हैं।"
+  },
+  {
+    "id": "uk-hin-001",
+    "exam": "UKPSC",
+    "exam_name": "Lower PCS Prelims",
+    "year": 2021,
+    "subject": "General Hindi",
+    "topic": "Vyakaran & Bhasha",
+    "question": "गढ़वाली और कुमाऊंनी भाषाएं किस अपभ्रंश से विकसित मानी जाती हैं?",
+    "question_hi": "गढ़वाली और कुमाऊंनी भाषाएं किस अपभ्रंश से विकसित मानी जाती हैं?",
+    "options": [
+      "शौरसेनी अपभ्रंश (Shourseni Apabhramsha)",
+      "खस अपभ्रंश (Khas Apabhramsha)",
+      "मागधी अपभ्रंश (Magadhi Apabhramsha)",
+      "अर्धमागधी अपभ्रंश (Ardhamagadhi Apabhramsha)"
+    ],
+    "correct_index": 1,
+    "explanation": "According to prominent linguists including Dr. Bhola Nath Tiwari and George Grierson, Central Pahari languages (Kumaoni & Garhwali) originated from the Khas Apabhramsha (affiliated with Shourseni).",
+    "explanation_hi": "प्रमुख भाषाविदों के अनुसार मध्य पहाड़ी वर्ग की बोलियाँ (गढ़वाली व कुमाऊंनी) खस अपभ्रंश से विकसित हुई हैं।"
+  },
+  {
+    "id": "uk-hin-002",
+    "exam": "UKSSC",
+    "exam_name": "Junior Assistant / VDO",
+    "year": 2021,
+    "subject": "General Hindi",
+    "topic": "Literature & Authors",
+    "question": "उत्तराखंड के किस प्रसिद्ध साहित्यकार को 'चिदंबरा' काव्यकृति के लिए हिंदी साहित्य का प्रथम 'ज्ञानपीठ पुरस्कार' (1968) प्रदान किया गया था?",
+    "question_hi": "उत्तराखंड के किस प्रसिद्ध साहित्यकार को 'चिदंबरा' काव्यकृति के लिए हिंदी साहित्य का प्रथम 'ज्ञानपीठ पुरस्कार' (1968) प्रदान किया गया था?",
+    "options": [
+      "महादेवी वर्मा (Mahadevi Varma)",
+      "सुमित्रानंदन पंत (Sumitranandan Pant)",
+      "गौरा पंत 'शिवानी' (Gaura Pant Shivani)",
+      "मंगलेश डबराल (Manglesh Dabral)"
+    ],
+    "correct_index": 1,
+    "explanation": "Sumitranandan Pant, born in Kausani (Bageshwar district, Uttarakhand) on 20 May 1900, was honored with the prestigious Jnanpith Award in 1968 for his poetic work 'Chidambara'.",
+    "explanation_hi": "कौसानी (बागेश्वर) में जन्मे प्रकृति के सुकुमार कवि सुमित्रानंदन पंत जी को 1968 में उनकी कृति 'चिदंबरा' के लिए हिंदी भाषा का पहला ज्ञानपीठ पुरस्कार मिला था।"
+  },
+  {
+    "id": "uk-hin-003",
+    "exam": "UKPSC",
+    "exam_name": "Executive Officer",
+    "year": 2023,
+    "subject": "General Hindi",
+    "topic": "Sandhi & Vyakaran",
+    "question": "'सूर्योदय' शब्द में कौन सी संधि प्रयुक्त हुई है?",
+    "question_hi": "'सूर्योदय' शब्द में कौन सी संधि प्रयुक्त हुई है?",
+    "options": [
+      "दीर्घ संधि (Dirgha Sandhi)",
+      "गुण संधि (Guna Sandhi)",
+      "वृद्धि संधि (Vriddhi Sandhi)",
+      "यण संधि (Yan Sandhi)"
+    ],
+    "correct_index": 1,
+    "explanation": "सूर्योदय = सूर्य + उदय (अ + उ = ओ)। जब 'अ/आ' के बाद 'इ/ई', 'उ/ऊ', या 'ऋ' आए तो क्रमशः 'ए', 'ओ', 'अर्' हो जाता है, इसे गुण स्वर संधि कहते हैं।",
+    "explanation_hi": "सूर्य + उदय = सूर्योदय (अ + उ = ओ), यह गुण स्वर संधि का उदाहरण है।"
+  },
+  {
+    "id": "uk-his-008",
+    "exam": "UKSSC",
+    "exam_name": "Police Sub-Inspector (SI)",
+    "year": 2022,
+    "subject": "Uttarakhand History",
+    "topic": "Movements & Protests",
+    "question": "The historic 'Coolie-Begar' (कूली बेगार) abolition movement took place on Uttarayani fair (13-14 Jan 1921) on the banks of which river in Bageshwar?",
+    "question_hi": "ऐतिहासिक 'कुली-बेगार' प्रथा का अंत उत्तरायणी मेले (13-14 जनवरी 1921) के अवसर पर बागेश्वर में किस नदी के तट पर हुआ था?",
+    "options": [
+      "Saryu-Gomti confluence (सरयू-गोमती संगम)",
+      "Alaknanda (अलकनंदा)",
+      "Kali river (काली नदी)",
+      "Kosi river (कोसी नदी)"
+    ],
+    "correct_index": 0,
+    "explanation": "Under the leadership of Badri Datt Pande, Hargovind Pant, and Chiranjilal, thousands of villagers gathered at the Saryu-Gomti confluence in Bageshwar and threw the oppressive coolie-begar registers into the river. Mahatma Gandhi called it a 'Bloodless Revolution'.",
+    "explanation_hi": "बद्री दत्त पांडे (कुमाऊं केसरी) के नेतृत्व में 13-14 जनवरी 1921 को बागेश्वर में सरयू नदी के तट पर कुली-बेगार के रजिस्टर बहाकर इस कुप्रथा का अंत किया गया।"
+  }
+]
